@@ -13,9 +13,9 @@ def read_file(path):
 path = "chapter1.txt"
 file_data = read_file(path)  # Calling the function
 
-# print(file_data)
+print(file_data)
 
-# Reading file the second way
+# Reading file the second way using open only
 
 file = open(path, 'r')  # Open file
 contents = file.read()  # Read the file
